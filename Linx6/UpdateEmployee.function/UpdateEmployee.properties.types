@@ -1,0 +1,16 @@
+[
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "T_v9Lv",
+      "Properties": [
+        {
+          "Id": "4J1O",
+          "Name": "Employee",
+          "Type": "Custom:FuV0",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  }
+]

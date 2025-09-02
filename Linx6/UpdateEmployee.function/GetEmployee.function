@@ -1,0 +1,39 @@
+{
+  "Properties": [
+    {
+      "Id": "lGnl",
+      "Type": "Compiled:String",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "$.Parameters.Employee.EmployeeID",
+        "CompiledExpression": "={0}",
+        "Type": "Compiled:Int64"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    },
+    {
+      "Id": "ParameterNameMapping",
+      "Type": "Compiled:System.Collections.Generic.IDictionary`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "ValueUsage": "DesignTime",
+      "Value": {
+        "lGnl": "EmployeeID"
+      },
+      "ValueType": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "Id": "Process",
+      "Type": "Compiled:Linx.IProcessReference",
+      "ValueUsage": "DesignTime",
+      "Value": {
+        "Id": "uGS6",
+        "Name": "GetEmployee",
+        "Parameters": "Generated:T_lB60",
+        "Result": "Custom:FuV0",
+        "IsValid": true,
+        "QualifiedPath": "PC:GetEmployee"
+      },
+      "ValueType": "Linx.ProcessReference"
+    }
+  ],
+  "Result": "Custom:FuV0"
+}

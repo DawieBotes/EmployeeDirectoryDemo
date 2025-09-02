@@ -1,0 +1,39 @@
+{
+  "Properties": [
+    {
+      "Id": "4J1O",
+      "Type": "Custom:FuV0",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "$.Parameters.body",
+        "CompiledExpression": "={0}",
+        "Type": "Generated:C_IfvV.Schema.Employee"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    },
+    {
+      "Id": "ParameterNameMapping",
+      "Type": "Compiled:System.Collections.Generic.IDictionary`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "ValueUsage": "DesignTime",
+      "Value": {
+        "4J1O": "Employee"
+      },
+      "ValueType": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "Id": "Process",
+      "Type": "Compiled:Linx.IProcessReference",
+      "ValueUsage": "DesignTime",
+      "Value": {
+        "Id": "Q4TA",
+        "Name": "UpdateEmployee",
+        "Parameters": "Generated:T_v9Lv",
+        "Result": "Custom:FuV0",
+        "IsValid": true,
+        "QualifiedPath": "PC:UpdateEmployee"
+      },
+      "ValueType": "Linx.ProcessReference"
+    }
+  ],
+  "Result": "Custom:FuV0"
+}

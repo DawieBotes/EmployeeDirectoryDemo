@@ -1,0 +1,112 @@
+{
+  "Properties": [
+    {
+      "Id": "Connection string",
+      "Type": "Compiled:String",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "$.Settings.DBConn",
+        "CompiledExpression": "={0}",
+        "Type": "Compiled:String"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    },
+    {
+      "Id": "Connection type",
+      "Type": "Compiled:Twenty57.Linx.Plugins.Database.Shared.Common.Sql.DesignerConnectionType, Twenty57.Linx.Plugins.Database.Shared, Version=3.1.0.0, Culture=neutral, PublicKeyToken=null",
+      "ValueUsage": "DesignTime",
+      "Value": "Odbc"
+    },
+    {
+      "Id": "Result type",
+      "Type": "Compiled:Twenty57.Linx.Plugins.Database.Shared.ExecuteSQL.ResultType, Twenty57.Linx.Plugins.Database.Shared, Version=3.1.0.0, Culture=neutral, PublicKeyToken=null",
+      "ValueUsage": "DesignTime",
+      "Value": {
+        "CustomType": null,
+        "Fields": [
+          {
+            "ColumnName": "EmployeeID",
+            "Name": "EmployeeID",
+            "ColumnType": "Int32",
+            "TypeReference": "Compiled:Int64"
+          },
+          {
+            "ColumnName": "FirstName",
+            "Name": "FirstName",
+            "ColumnType": "String",
+            "TypeReference": "Compiled:String"
+          },
+          {
+            "ColumnName": "LastName",
+            "Name": "LastName",
+            "ColumnType": "String",
+            "TypeReference": "Compiled:String"
+          },
+          {
+            "ColumnName": "Email",
+            "Name": "Email",
+            "ColumnType": "String",
+            "TypeReference": "Compiled:String"
+          },
+          {
+            "ColumnName": "Phone",
+            "Name": "Phone",
+            "ColumnType": "String",
+            "TypeReference": "Compiled:String"
+          },
+          {
+            "ColumnName": "Department",
+            "Name": "Department",
+            "ColumnType": "String",
+            "TypeReference": "Compiled:String"
+          },
+          {
+            "ColumnName": "JobTitle",
+            "Name": "JobTitle",
+            "ColumnType": "String",
+            "TypeReference": "Compiled:String"
+          },
+          {
+            "ColumnName": "Location",
+            "Name": "Location",
+            "ColumnType": "String",
+            "TypeReference": "Compiled:String"
+          },
+          {
+            "ColumnName": "HireDate",
+            "Name": "HireDate",
+            "ColumnType": "DateTime",
+            "TypeReference": "Compiled:DateTime"
+          },
+          {
+            "ColumnName": "Status",
+            "Name": "Status",
+            "ColumnType": "String",
+            "TypeReference": "Compiled:String"
+          }
+        ],
+        "IsCustomType": true
+      }
+    },
+    {
+      "Id": "Return options",
+      "Type": "Compiled:Twenty57.Linx.Plugins.Database.Shared.ExecuteSQL.ReturnModeType, Twenty57.Linx.Plugins.Database.Shared, Version=3.1.0.0, Culture=neutral, PublicKeyToken=null",
+      "ValueUsage": "DesignTime",
+      "Value": "ListOfRows"
+    },
+    {
+      "Id": "SQL",
+      "Type": "Compiled:String",
+      "ValueUsage": "RuntimeRead",
+      "Value": "SELECT EmployeeID\r\n      ,FirstName\r\n      ,LastName\r\n      ,Email\r\n      ,Phone\r\n      ,Department\r\n      ,JobTitle\r\n      ,Location\r\n      ,HireDate\r\n      ,Status\r\n  FROM Employees;\r\n"
+    },
+    {
+      "Id": "Timeout",
+      "Type": "Compiled:Int32",
+      "ValueUsage": "DesignTime",
+      "Value": 60
+    }
+  ],
+  "Result": "List:Generated:T_OAsh",
+  "Version": "3"
+}

@@ -1,0 +1,49 @@
+{
+  "Properties": [
+    {
+      "Id": "Conditions",
+      "Type": "Compiled:System.Collections.Generic.List`1[[Twenty57.Linx.Plugins.Standard.Shared.IfElse.Condition, Twenty57.Linx.Plugins.Standard.Shared, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "ValueUsage": "DesignTime",
+      "Value": [
+        {
+          "ExecutionPathId": "E4cg",
+          "Name": "IsZA"
+        }
+      ]
+    },
+    {
+      "Id": "Expression_0",
+      "Type": "Compiled:Boolean",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "ForEach.Loop.country_code==\"ZA\"&&!ResultFound",
+        "CompiledExpression": "={1}==\"ZA\"&&!{0}",
+        "Type": "Compiled:Boolean"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    },
+    {
+      "Id": "Show else",
+      "Type": "Compiled:Boolean",
+      "ValueUsage": "DesignTime",
+      "Value": false
+    },
+    {
+      "Id": "Stop when true",
+      "Type": "Compiled:Boolean",
+      "ValueUsage": "DesignTime",
+      "Value": true
+    }
+  ],
+  "ExecutionPaths": [
+    {
+      "PluginId": "E4cg",
+      "Name": "IsZA",
+      "Result": null,
+      "Order": 0,
+      "IterationHint": "ZeroOrOnce",
+      "ConstitutesControlFlow": true
+    }
+  ],
+  "Version": "1"
+}

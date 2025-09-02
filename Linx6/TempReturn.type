@@ -1,0 +1,16 @@
+{
+  "Id": "Jemn",
+  "Name": "TempReturn",
+  "Properties": [
+    {
+      "Id": "vBds",
+      "Name": "Min",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "X5iu",
+      "Name": "Max",
+      "Type": "Compiled:String"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "Id": "cfdx",
+  "Name": "Temp_daily",
+  "Properties": [
+    {
+      "Id": "Vgf1",
+      "Name": "time",
+      "Type": "List:Compiled:DateTime"
+    },
+    {
+      "Id": "P4rr",
+      "Name": "temperature_2m_min",
+      "Type": "List:Compiled:Double"
+    },
+    {
+      "Id": "Appq",
+      "Name": "temperature_2m_max",
+      "Type": "List:Compiled:Double"
+    }
+  ]
+}

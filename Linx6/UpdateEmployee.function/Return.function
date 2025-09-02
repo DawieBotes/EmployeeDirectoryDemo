@@ -1,0 +1,19 @@
+{
+  "Properties": [
+    {
+      "Id": "Value",
+      "Type": "Custom:FuV0",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "GetNewEmployee",
+        "CompiledExpression": "={0}",
+        "Type": "Generated:T_Tmpx"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    }
+  ],
+  "RuntimeCharacteristics": {
+    "IsTerminating": true,
+    "ExecutionPathExecution": "ZeroOrMore"
+  }
+}

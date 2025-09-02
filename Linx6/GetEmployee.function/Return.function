@@ -1,0 +1,19 @@
+{
+  "Properties": [
+    {
+      "Id": "Value",
+      "Type": "Custom:FuV0",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "SQLGetEmployee",
+        "CompiledExpression": "={0}",
+        "Type": "Generated:T_uGIG"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    }
+  ],
+  "RuntimeCharacteristics": {
+    "IsTerminating": true,
+    "ExecutionPathExecution": "ZeroOrMore"
+  }
+}

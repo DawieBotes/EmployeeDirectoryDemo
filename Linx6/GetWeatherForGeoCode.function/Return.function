@@ -1,0 +1,39 @@
+{
+  "Properties": [
+    {
+      "Id": "Value",
+      "Type": "Generated:T_4ZXG",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "ParsedExpression": "{\"Min\":{\"LinxExpression\":\"[PARSED]\"}, \"Max\":{\"LinxExpression\":\"[PARSED]\"}}",
+        "ExpressionPlaceholders": [
+          {
+            "typePath": [
+              "Min"
+            ],
+            "expression": {
+              "Expression": "Temp.daily.temperature_2m_min[0]",
+              "CompiledExpression": "={0}[0]",
+              "Type": "Compiled:Double"
+            }
+          },
+          {
+            "typePath": [
+              "Max"
+            ],
+            "expression": {
+              "Expression": "Temp.daily.temperature_2m_max[0]",
+              "CompiledExpression": "={0}[0]",
+              "Type": "Compiled:Double"
+            }
+          }
+        ]
+      },
+      "ValueType": "Linx.JsonExpression"
+    }
+  ],
+  "RuntimeCharacteristics": {
+    "IsTerminating": true,
+    "ExecutionPathExecution": "ZeroOrMore"
+  }
+}

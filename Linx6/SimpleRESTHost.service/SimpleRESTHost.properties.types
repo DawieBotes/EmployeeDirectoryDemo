@@ -1,0 +1,170 @@
+[
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "C_IfvV.Operations.GetEmployee.Result",
+      "Properties": [
+        {
+          "Id": "HttpContext",
+          "Name": "HttpContext",
+          "Type": "Compiled:Twenty57.Linx.Plugins.Rest.Shared.WebServiceWithDefinitionEditor.OpenAPI.Data.Out.HttpContext, Twenty57.Linx.Plugins.Rest.Shared, Version=2.5.1.0, Culture=neutral, PublicKeyToken=null",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "ResponseBody",
+          "Name": "ResponseBody",
+          "Type": "Generated:C_IfvV.Schema.Employee",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "C_IfvV.Operations.GetEmployees.Result",
+      "Properties": [
+        {
+          "Id": "HttpContext",
+          "Name": "HttpContext",
+          "Type": "Compiled:Twenty57.Linx.Plugins.Rest.Shared.WebServiceWithDefinitionEditor.OpenAPI.Data.Out.HttpContext, Twenty57.Linx.Plugins.Rest.Shared, Version=2.5.1.0, Culture=neutral, PublicKeyToken=null",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "ResponseBody",
+          "Name": "ResponseBody",
+          "Type": "List:Generated:C_IfvV.Schema.Employee",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "C_IfvV.Operations.GetTempForCity.Result",
+      "Properties": [
+        {
+          "Id": "HttpContext",
+          "Name": "HttpContext",
+          "Type": "Compiled:Twenty57.Linx.Plugins.Rest.Shared.WebServiceWithDefinitionEditor.OpenAPI.Data.Out.HttpContext, Twenty57.Linx.Plugins.Rest.Shared, Version=2.5.1.0, Culture=neutral, PublicKeyToken=null",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "ResponseBody",
+          "Name": "ResponseBody",
+          "Type": "Generated:C_IfvV.Schema.TempReturn",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "C_IfvV.Operations.UpdateEmployee.Result",
+      "Properties": [
+        {
+          "Id": "HttpContext",
+          "Name": "HttpContext",
+          "Type": "Compiled:Twenty57.Linx.Plugins.Rest.Shared.WebServiceWithDefinitionEditor.OpenAPI.Data.Out.HttpContext, Twenty57.Linx.Plugins.Rest.Shared, Version=2.5.1.0, Culture=neutral, PublicKeyToken=null",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "ResponseBody",
+          "Name": "ResponseBody",
+          "Type": "Generated:C_IfvV.Schema.Employee",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "C_IfvV.Schema.Employee",
+      "Properties": [
+        {
+          "Id": "Department",
+          "Name": "Department",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "Email",
+          "Name": "Email",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "EmployeeID",
+          "Name": "EmployeeID",
+          "Type": "Compiled:Int64",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "FirstName",
+          "Name": "FirstName",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "HireDate",
+          "Name": "HireDate",
+          "Type": "Compiled:DateTime",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "JobTitle",
+          "Name": "JobTitle",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "LastName",
+          "Name": "LastName",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "Location",
+          "Name": "Location",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "Phone",
+          "Name": "Phone",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "Status",
+          "Name": "Status",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "C_IfvV.Schema.TempReturn",
+      "Properties": [
+        {
+          "Id": "Max",
+          "Name": "Max",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "Min",
+          "Name": "Min",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  }
+]

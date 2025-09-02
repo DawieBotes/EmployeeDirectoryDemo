@@ -1,0 +1,26 @@
+{
+  "Properties": [
+    {
+      "Id": "Source",
+      "Type": "Custom:p6s8",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "ForEach.Loop",
+        "CompiledExpression": "={0}",
+        "Type": "Custom:p6s8"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    },
+    {
+      "Id": "Target",
+      "Type": "Custom:p6s8",
+      "ValueUsage": "RuntimeWrite",
+      "Value": {
+        "Expression": "GetGeoCode_result",
+        "CompiledExpression": "={0}",
+        "Type": "Custom:p6s8"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    }
+  ]
+}

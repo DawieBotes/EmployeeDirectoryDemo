@@ -1,0 +1,25 @@
+{
+  "Properties": [
+    {
+      "Id": "List",
+      "Type": "List:Custom:p6s8",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "CallRESTEndpoint.ResponseBody.results",
+        "CompiledExpression": "={0}",
+        "Type": "List:Custom:p6s8"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    }
+  ],
+  "ExecutionPaths": [
+    {
+      "PluginId": "Loop",
+      "Name": "Loop",
+      "Result": "List:Custom:p6s8",
+      "Order": 0,
+      "IterationHint": "ZeroOrMore",
+      "ConstitutesControlFlow": true
+    }
+  ]
+}

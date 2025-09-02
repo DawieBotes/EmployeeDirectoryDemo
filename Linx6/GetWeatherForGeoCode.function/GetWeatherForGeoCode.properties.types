@@ -1,0 +1,42 @@
+[
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "T_4ZXG",
+      "Properties": [
+        {
+          "Id": "S5nJ",
+          "Name": "Max",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "ssMr",
+          "Name": "Min",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "T_RcvG",
+      "Properties": [
+        {
+          "Id": "8Jyb",
+          "Name": "Lat",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "GYsW",
+          "Name": "Long",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  }
+]

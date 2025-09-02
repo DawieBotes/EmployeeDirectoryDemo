@@ -1,0 +1,21 @@
+{
+  "Id": "CLyS",
+  "Name": "Temp_daily_units",
+  "Properties": [
+    {
+      "Id": "IUp3",
+      "Name": "time",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "16ez",
+      "Name": "temperature_2m_min",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "TCNj",
+      "Name": "temperature_2m_max",
+      "Type": "Compiled:String"
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "Properties": [
+    {
+      "Id": "Connection string",
+      "Type": "Compiled:String",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "$.Settings.DBConn",
+        "CompiledExpression": "={0}",
+        "Type": "Compiled:String"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    },
+    {
+      "Id": "Connection type",
+      "Type": "Compiled:Twenty57.Linx.Plugins.Database.Shared.Common.Sql.DesignerConnectionType, Twenty57.Linx.Plugins.Database.Shared, Version=3.1.0.0, Culture=neutral, PublicKeyToken=null",
+      "ValueUsage": "DesignTime",
+      "Value": "Odbc"
+    },
+    {
+      "Id": "Expression0",
+      "Type": "Compiled:Object",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "$.Parameters.Employee.FirstName",
+        "CompiledExpression": "={0}",
+        "Type": "Compiled:String"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    },
+    {
+      "Id": "Expression1",
+      "Type": "Compiled:Object",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "$.Parameters.Employee.LastName",
+        "CompiledExpression": "={0}",
+        "Type": "Compiled:String"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    },
+    {
+      "Id": "Expression2",
+      "Type": "Compiled:Object",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "$.Parameters.Employee.Email",
+        "CompiledExpression": "={0}",
+        "Type": "Compiled:String"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    },
+    {
+      "Id": "Expression3",
+      "Type": "Compiled:Object",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "$.Parameters.Employee.Phone",
+        "CompiledExpression": "={0}",
+        "Type": "Compiled:String"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    },
+    {
+      "Id": "Expression4",
+      "Type": "Compiled:Object",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "$.Parameters.Employee.Department",
+        "CompiledExpression": "={0}",
+        "Type": "Compiled:String"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    },
+    {
+      "Id": "Expression5",
+      "Type": "Compiled:Object",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "$.Parameters.Employee.JobTitle",
+        "CompiledExpression": "={0}",
+        "Type": "Compiled:String"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    },
+    {
+      "Id": "Expression6",
+      "Type": "Compiled:Object",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "$.Parameters.Employee.Location",
+        "CompiledExpression": "={0}",
+        "Type": "Compiled:String"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    },
+    {
+      "Id": "Expression7",
+      "Type": "Compiled:Object",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "$.Parameters.Employee.HireDate.ToString(\"yyyy-MM-dd\")",
+        "CompiledExpression": "={0}.ToString(\"yyyy-MM-dd\")",
+        "Type": "Compiled:String"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    },
+    {
+      "Id": "Expression8",
+      "Type": "Compiled:Object",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "$.Parameters.Employee.Status",
+        "CompiledExpression": "={0}",
+        "Type": "Compiled:String"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    },
+    {
+      "Id": "Result type",
+      "Type": "Compiled:Twenty57.Linx.Plugins.Database.Shared.ExecuteSQL.ResultType, Twenty57.Linx.Plugins.Database.Shared, Version=3.1.0.0, Culture=neutral, PublicKeyToken=null",
+      "ValueUsage": "DesignTime",
+      "Value": {
+        "CustomType": null,
+        "Fields": [],
+        "IsCustomType": true
+      }
+    },
+    {
+      "Id": "SQL",
+      "Type": "Compiled:String",
+      "ValueUsage": "RuntimeRead",
+      "Value": "INSERT INTO Employees\r\n           (FirstName\r\n           ,LastName\r\n           ,Email\r\n           ,Phone\r\n           ,Department\r\n           ,JobTitle\r\n           ,Location\r\n           ,HireDate\r\n           ,Status)\r\n     VALUES\r\n           (\r\n           @{$.Parameters.Employee.FirstName}\r\n           ,@{$.Parameters.Employee.LastName}\r\n           ,@{$.Parameters.Employee.Email}\r\n           ,@{$.Parameters.Employee.Phone}\r\n           ,@{$.Parameters.Employee.Department}\r\n           ,@{$.Parameters.Employee.JobTitle}\r\n           ,@{$.Parameters.Employee.Location}\r\n           ,@{$.Parameters.Employee.HireDate.ToString(\"yyyy-MM-dd\")}\r\n           ,@{$.Parameters.Employee.Status}\r\n           );\r\n"
+    },
+    {
+      "Id": "Timeout",
+      "Type": "Compiled:Int32",
+      "ValueUsage": "DesignTime",
+      "Value": 60
+    }
+  ],
+  "Version": "3"
+}

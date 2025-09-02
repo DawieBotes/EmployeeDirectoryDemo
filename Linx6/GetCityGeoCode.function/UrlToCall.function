@@ -1,0 +1,11 @@
+{
+  "Properties": [
+    {
+      "Id": "Value",
+      "Type": "Compiled:String",
+      "ValueUsage": "RuntimeRead",
+      "Value": "https://geocoding-api.open-meteo.com/v1/search?name=[City]&count=10&language=en&format=json"
+    }
+  ],
+  "Result": "Compiled:String"
+}

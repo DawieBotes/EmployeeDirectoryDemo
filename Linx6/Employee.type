@@ -1,0 +1,56 @@
+{
+  "Id": "FuV0",
+  "Name": "Employee",
+  "Properties": [
+    {
+      "Id": "x8Rw",
+      "Name": "EmployeeID",
+      "Type": "Compiled:Int64"
+    },
+    {
+      "Id": "aLix",
+      "Name": "FirstName",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "rrDE",
+      "Name": "LastName",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "aidE",
+      "Name": "Email",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "FxFu",
+      "Name": "Phone",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "oPNE",
+      "Name": "Department",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "CFGC",
+      "Name": "JobTitle",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "K5PY",
+      "Name": "Location",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "TWpE",
+      "Name": "HireDate",
+      "Type": "Compiled:DateTime"
+    },
+    {
+      "Id": "gDut",
+      "Name": "Status",
+      "Type": "Compiled:String"
+    }
+  ]
+}

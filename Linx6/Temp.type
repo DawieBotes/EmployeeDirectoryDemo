@@ -1,0 +1,51 @@
+{
+  "Id": "fCDe",
+  "Name": "Temp",
+  "Properties": [
+    {
+      "Id": "SNhb",
+      "Name": "latitude",
+      "Type": "Compiled:Double"
+    },
+    {
+      "Id": "QAUT",
+      "Name": "longitude",
+      "Type": "Compiled:Double"
+    },
+    {
+      "Id": "Wl6o",
+      "Name": "generationtime_ms",
+      "Type": "Compiled:Double"
+    },
+    {
+      "Id": "u1s0",
+      "Name": "utc_offset_seconds",
+      "Type": "Compiled:Int64"
+    },
+    {
+      "Id": "q2ge",
+      "Name": "timezone",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "RbSP",
+      "Name": "timezone_abbreviation",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "CyLh",
+      "Name": "elevation",
+      "Type": "Compiled:Double"
+    },
+    {
+      "Id": "FPmV",
+      "Name": "daily_units",
+      "Type": "Custom:CLyS"
+    },
+    {
+      "Id": "FY7h",
+      "Name": "daily",
+      "Type": "Custom:cfdx"
+    }
+  ]
+}

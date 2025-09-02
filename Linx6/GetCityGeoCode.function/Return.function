@@ -1,0 +1,19 @@
+{
+  "Properties": [
+    {
+      "Id": "Value",
+      "Type": "Custom:p6s8",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "GetGeoCode_result",
+        "CompiledExpression": "={0}",
+        "Type": "Custom:p6s8"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    }
+  ],
+  "RuntimeCharacteristics": {
+    "IsTerminating": true,
+    "ExecutionPathExecution": "ZeroOrMore"
+  }
+}

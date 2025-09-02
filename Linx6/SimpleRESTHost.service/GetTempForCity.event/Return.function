@@ -1,0 +1,41 @@
+{
+  "Properties": [
+    {
+      "Id": "Value",
+      "Type": "Generated:C_IfvV.Operations.GetTempForCity.Result",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "ParsedExpression": "{\"ResponseBody\":{\"Min\":{\"LinxExpression\":\"[PARSED]\"}, \"Max\":{\"LinxExpression\":\"[PARSED]\"}}}",
+        "ExpressionPlaceholders": [
+          {
+            "typePath": [
+              "ResponseBody",
+              "Min"
+            ],
+            "expression": {
+              "Expression": "GetWeatherForGeoCode.Min",
+              "CompiledExpression": "={0}",
+              "Type": "Compiled:String"
+            }
+          },
+          {
+            "typePath": [
+              "ResponseBody",
+              "Max"
+            ],
+            "expression": {
+              "Expression": "GetWeatherForGeoCode.Max",
+              "CompiledExpression": "={0}",
+              "Type": "Compiled:String"
+            }
+          }
+        ]
+      },
+      "ValueType": "Linx.JsonExpression"
+    }
+  ],
+  "RuntimeCharacteristics": {
+    "IsTerminating": true,
+    "ExecutionPathExecution": "ZeroOrMore"
+  }
+}

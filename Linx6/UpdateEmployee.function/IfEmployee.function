@@ -1,0 +1,61 @@
+{
+  "Properties": [
+    {
+      "Id": "Conditions",
+      "Type": "Compiled:System.Collections.Generic.List`1[[Twenty57.Linx.Plugins.Standard.Shared.IfElse.Condition, Twenty57.Linx.Plugins.Standard.Shared, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "ValueUsage": "DesignTime",
+      "Value": [
+        {
+          "ExecutionPathId": "JG2d",
+          "Name": "IsExisting"
+        }
+      ]
+    },
+    {
+      "Id": "Expression_0",
+      "Type": "Compiled:Boolean",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "GetEmployee!=$.System.Null&&GetEmployee.EmployeeID>0",
+        "CompiledExpression": "={2}!={1}&&{0}>0",
+        "Type": "Compiled:Boolean"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    },
+    {
+      "Id": "Show else",
+      "Type": "Compiled:Boolean",
+      "ValueUsage": "DesignTime",
+      "Value": true
+    },
+    {
+      "Id": "Stop when true",
+      "Type": "Compiled:Boolean",
+      "ValueUsage": "DesignTime",
+      "Value": true
+    }
+  ],
+  "ExecutionPaths": [
+    {
+      "PluginId": "JG2d",
+      "Name": "IsExisting",
+      "Result": null,
+      "Order": 0,
+      "IterationHint": "ZeroOrOnce",
+      "ConstitutesControlFlow": true
+    },
+    {
+      "PluginId": "Else",
+      "Name": "Else",
+      "Result": null,
+      "Order": 1,
+      "IterationHint": "ZeroOrOnce",
+      "ConstitutesControlFlow": true
+    }
+  ],
+  "RuntimeCharacteristics": {
+    "IsTerminating": false,
+    "ExecutionPathExecution": "OneOrMore"
+  },
+  "Version": "1"
+}

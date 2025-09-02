@@ -1,0 +1,8 @@
+[
+  {
+    "Id": "kc5U",
+    "Name": "DBConn",
+    "Type": "Compiled:String",
+    "Value": "Driver={SQLite3 ODBC Driver};Database=C:\\Users\\Administrator\\Documents\\GitHub\\EmployeeDirectoryDemo\\EmployeesDB.db;"
+  }
+]

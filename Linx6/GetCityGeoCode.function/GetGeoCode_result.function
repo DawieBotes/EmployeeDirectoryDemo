@@ -1,0 +1,19 @@
+{
+  "Properties": [
+    {
+      "Id": "Type",
+      "Type": "Compiled:Linx.ITypeReference",
+      "ValueUsage": "DesignTime",
+      "Value": "Custom:p6s8",
+      "ValueType": "Linx.ValidCustomTypeReference"
+    },
+    {
+      "Id": "Value",
+      "Type": "Custom:p6s8",
+      "ValueUsage": "RuntimeRead",
+      "Value": "{}",
+      "ValueType": "String"
+    }
+  ],
+  "Result": "Custom:p6s8"
+}

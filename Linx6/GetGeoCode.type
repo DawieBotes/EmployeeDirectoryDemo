@@ -1,0 +1,16 @@
+{
+  "Id": "oUbd",
+  "Name": "GetGeoCode",
+  "Properties": [
+    {
+      "Id": "wQtS",
+      "Name": "results",
+      "Type": "List:Custom:p6s8"
+    },
+    {
+      "Id": "0z1m",
+      "Name": "generationtime_ms",
+      "Type": "Compiled:Double"
+    }
+  ]
+}

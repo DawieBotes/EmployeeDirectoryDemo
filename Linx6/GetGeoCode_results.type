@@ -1,0 +1,91 @@
+{
+  "Id": "p6s8",
+  "Name": "GetGeoCode_results",
+  "Properties": [
+    {
+      "Id": "3HnI",
+      "Name": "id",
+      "Type": "Compiled:Int64"
+    },
+    {
+      "Id": "Wdlq",
+      "Name": "name",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "gNo8",
+      "Name": "latitude",
+      "Type": "Compiled:Double"
+    },
+    {
+      "Id": "rX2J",
+      "Name": "longitude",
+      "Type": "Compiled:Double"
+    },
+    {
+      "Id": "Q98P",
+      "Name": "elevation",
+      "Type": "Compiled:Double"
+    },
+    {
+      "Id": "uEkj",
+      "Name": "feature_code",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "yEkX",
+      "Name": "country_code",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "752Z",
+      "Name": "admin1_id",
+      "Type": "Compiled:Int64"
+    },
+    {
+      "Id": "ZDeQ",
+      "Name": "admin2_id",
+      "Type": "Compiled:Int64"
+    },
+    {
+      "Id": "1OOL",
+      "Name": "admin3_id",
+      "Type": "Compiled:Int64"
+    },
+    {
+      "Id": "Hfaw",
+      "Name": "timezone",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "LAUI",
+      "Name": "population",
+      "Type": "Compiled:Int64"
+    },
+    {
+      "Id": "gOgr",
+      "Name": "country_id",
+      "Type": "Compiled:Int64"
+    },
+    {
+      "Id": "pPEK",
+      "Name": "country",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "ZOjn",
+      "Name": "admin1",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "eWg2",
+      "Name": "admin2",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "LHOb",
+      "Name": "admin3",
+      "Type": "Compiled:String"
+    }
+  ]
+}

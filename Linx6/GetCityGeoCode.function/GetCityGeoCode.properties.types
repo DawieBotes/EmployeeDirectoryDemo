@@ -1,0 +1,16 @@
+[
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "T_0eqI",
+      "Properties": [
+        {
+          "Id": "k8IQ",
+          "Name": "City",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  }
+]

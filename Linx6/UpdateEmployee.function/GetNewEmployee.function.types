@@ -1,0 +1,70 @@
+[
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "T_Tmpx",
+      "Properties": [
+        {
+          "Id": "Department",
+          "Name": "Department",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "Email",
+          "Name": "Email",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "EmployeeID",
+          "Name": "EmployeeID",
+          "Type": "Compiled:Int64",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "FirstName",
+          "Name": "FirstName",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "HireDate",
+          "Name": "HireDate",
+          "Type": "Compiled:DateTime",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "JobTitle",
+          "Name": "JobTitle",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "LastName",
+          "Name": "LastName",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "Location",
+          "Name": "Location",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "Phone",
+          "Name": "Phone",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "Status",
+          "Name": "Status",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  }
+]

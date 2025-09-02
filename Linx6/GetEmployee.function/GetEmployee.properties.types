@@ -1,0 +1,16 @@
+[
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "T_lB60",
+      "Properties": [
+        {
+          "Id": "lGnl",
+          "Name": "EmployeeID",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  }
+]

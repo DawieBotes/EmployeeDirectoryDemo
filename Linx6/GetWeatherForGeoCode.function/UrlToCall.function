@@ -1,0 +1,11 @@
+{
+  "Properties": [
+    {
+      "Id": "Value",
+      "Type": "Compiled:String",
+      "ValueUsage": "RuntimeRead",
+      "Value": "https://api.open-meteo.com/v1/forecast?latitude=[Lat]&longitude=[Long]&daily=temperature_2m_min,temperature_2m_max&timezone=GMT&forecast_days=1"
+    }
+  ],
+  "Result": "Compiled:String"
+}
